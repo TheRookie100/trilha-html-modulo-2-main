@@ -84,19 +84,25 @@ table tr:hover td {
   width: 100%;
   height: 100%;
 }
-.parallax {
-  background-image: url('/img/banner3.jpg');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+
+.stylemedic:hover {
+  color: chartreuse; /* Aqui você pode definir a cor desejada */
+}
+header {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.logo-container {
+  display: flex;
   align-items: center;
 }
 
-.parallax h1 {
-  color: #fff;
+.logo-text {
+  margin-left: 10px;
+}
+.logo-container:hover .logo-text {
+  color: chartreuse; /* Aqui você pode definir a cor desejada */
 }
