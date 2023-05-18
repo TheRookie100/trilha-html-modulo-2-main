@@ -88,3 +88,21 @@ table tr:hover td {
 .stylemedic:hover {
   color: chartreuse; /* Aqui você pode definir a cor desejada */
 }
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  margin-left: 10px;
+}
+.logo-container:hover .logo-text {
+  color: chartreuse; /* Aqui você pode definir a cor desejada */
+}
